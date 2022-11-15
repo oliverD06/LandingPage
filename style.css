@@ -1,2 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#topnav   {
+   width: 1410px;
+   height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    border: 10px solid  blueviolet;
+    border-bottom: 5px  greenyellow solid;
+    translate: -3px -10px;
+   z-index: 90;
+}
+
+html   {
+    background-image: url(istockphoto-472155784-612x612_500x500.jpeg);
+    background-size: contain;
+    color: white;
+    width: 96%;
+  
+    margin-top: 0;
+}
+
+
+
+i   {
+    color: greenyellow;
+    font-size: 25px;
+
+}
+
+a   {
+    color: greenyellow;
+    font-family: 'Source Code Pro';
+    font-size: 25px;
+}
+
+#front  {
+    font-family: 'Source Code Pro', monospace;
+    height: 500px;
+    width: 750px;
+    padding-top: 50px;
+    padding-left: 50px;
+   
+    color: violet;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+h4  {
+    text-align: center;
+
+}
+
+#about  {
+    color: aqua;
+    padding-top: 250px;
+    padding-left: 600px;
+    height: 500px;
+    width: 750px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    margin: 0;
+
+}
+
+
+#first {
+    translate: 750px -300px;
+    width: 300px;
+    height: 350px;
+}
+
+#second {
+    translate: -750px  -325px;
+    width: 400px;
+    height: 400px;
+}
+
+#contact    {
+    color: yellow;
+    padding-top: 350px;
+    padding-left: 50px;
+    height: 500px;
+    width: 750px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    padding-bottom: 0;
+}
+
+#third  {
+translate: 750px -300px;
+width: 300px;
+height: 350px;
+}
+
